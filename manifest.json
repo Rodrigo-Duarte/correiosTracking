@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Test",
+  "description": "A test.",
+  "version": "1.0",
+
+  "permissions": [
+    "storage",
+    "http://websro.correios.com.br/"
+  ],
+  "browser_action": {
+    "default_popup": "test.html"
+  }
+}
